@@ -1,0 +1,10 @@
+{
+  "name": "game_samrtcontractsV2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "5.1.35",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

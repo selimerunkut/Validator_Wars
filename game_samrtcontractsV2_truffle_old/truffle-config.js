@@ -1,7 +1,8 @@
 
+const HDWalletProvider = require('truffle-hdwallet-provider');
 
 const {
-  LOCAL_PRIVATE_KEYS, TESTNET_PRIVATE_KEYS,
+  LOCAL_PRIVATE_KEYS, TESTNET_PRIVATE_KEYS, mnemonic
 } = require('./.secrets.json');
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -48,11 +49,17 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard Ethereum port (default: none)
+      //host: "127.0.0.1",     // Localhost (default: none)
+      //port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
       //gas: 6000000,
       //gasPrice: 10,
+      provider: function () {
+        return new HDWalletProvider(
+          mnemonic,
+          "http://127.0.0.1:8545"
+        )
+      },
     },
     /*     
     test: {
