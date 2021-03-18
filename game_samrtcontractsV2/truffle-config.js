@@ -1,8 +1,6 @@
-const web3 = require('web3');
 
-const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-const { INFURA_PROJECT_ID,
+const {
   LOCAL_PRIVATE_KEYS, TESTNET_PRIVATE_KEYS,
 } = require('./.secrets.json');
 /**
@@ -51,7 +49,7 @@ module.exports = {
     //
     development: {
       host: "127.0.0.1",     // Localhost (default: none)
-      port: 7545,            // Standard Ethereum port (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
       //gas: 6000000,
       //gasPrice: 10,
@@ -63,18 +61,6 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
      }, 
      */
-    test: {
-      provider: function () {
-        return new HDWalletProvider({
-          privateKeys: LOCAL_PRIVATE_KEYS,
-          providerOrUrl: "http://127.0.0.1:8545",
-          addressIndex: 0,
-          numberOfAddresses: 1
-        })
-      },
-      network_id: 2017,
-      skipDryRun: false
-    },
 
 
     // Another network with more advanced options...
@@ -112,7 +98,7 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      version: "0.8.0",    // Fetch exact version from solc-bin (default: truffle's version)
+      version: "0.5.11",    // Fetch exact version from solc-bin (default: truffle's version)
       settings: {          // See the solidity docs for advice about optimization and evmVersion
         optimizer: {
           enabled: true,
@@ -120,11 +106,5 @@ module.exports = {
         }
       }
     }
-  },
-  plugins: [
-    'truffle-plugin-verify'
-  ],
-  api_keys: {
-    etherscan: ETHERSCAN_API_KEY
   }
 };
