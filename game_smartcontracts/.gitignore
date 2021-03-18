@@ -1,8 +1,0 @@
-.DS_Store
-.vscode
-.secrets.json
-.openzeppelin/dev-*.json
-.openzeppelin/unknown-*.json
-.openzeppelin/.session
-node_modules
-build/source
