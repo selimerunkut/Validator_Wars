@@ -1,5 +1,5 @@
 {
-  "contractName": "Counter",
+  "contractName": "TestToken",
   "abi": [
     {
       "constant": false,
@@ -35,25 +35,25 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.11+commit.c082d0b4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"add\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"subtract\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol\":\"Counter\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":1337},\"remappings\":[]},\"sources\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol\":{\"keccak256\":\"0x4e6ffbb24e836853c794d4b60399b529b3d591800ff83f1d2b66383cc0d126fd\",\"urls\":[\"bzz-raw://3bb5fd5f40f29fbbbb4c42e23ff20c828553a75a12646d1216d3eb388874a4c0\",\"dweb:/ipfs/QmNLx3N1gcY6SQXJkKwmXkiwJMz6CWqBGdBfErLnVKRQuw\"]}},\"version\":1}",
-  "bytecode": "0x60806040526000805534801561001457600080fd5b5060b9806100236000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a723158202639b10c72f4c39cf35a93bad698b0add8cdad57cd0d6dd7f4f33ee0aa8e282064736f6c634300050b0032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a723158202639b10c72f4c39cf35a93bad698b0add8cdad57cd0d6dd7f4f33ee0aa8e282064736f6c634300050b0032",
-  "sourceMap": "58:221:1:-;;;97:1;79:19;;58:221;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:221:1;;;;;;;",
-  "deployedSourceMap": "58:221:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:221:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;103:42;;;:::i;:::-;;149:47;;;:::i;200:77::-;;;:::i;:::-;;;;;;;;;;;;;;;;103:42;131:7;:9;;;;;;103:42::o;149:47::-;182:7;:9;;-1:-1:-1;;182:9:1;;;149:47::o;200:77::-;243:7;265;200:77;:::o",
-  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.5.11;\n\ncontract Counter {\n  uint256 counter = 0;\n\n  function add() public {\n    counter++;\n  }\n\n  function subtract() public {\n    counter--;\n  }\n\n  function getCounter() public view returns (uint256) {\n    return counter;\n  }\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.11+commit.c082d0b4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"add\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"subtract\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol\":\"TestToken\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":1337},\"remappings\":[]},\"sources\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol\":{\"keccak256\":\"0xb93eea108a1804ad019c574160c057fa94d5b924896554adde9f40973b10e383\",\"urls\":[\"bzz-raw://61bfe4d872cbb45b85befbf27d5045e53d5f33e3802b25f6e2897a4e807fac42\",\"dweb:/ipfs/QmUXbkMgtRi1ats6Rvr4BVVmJxfmW1dZYsZC34diubEE8t\"]}},\"version\":1}",
+  "bytecode": "0x60806040526000805534801561001457600080fd5b5060b9806100236000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a72315820d529037ead0e11e8aa9fc00f2140b3a009a9e351ac988048780f57176b79504364736f6c634300050b0032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a72315820d529037ead0e11e8aa9fc00f2140b3a009a9e351ac988048780f57176b79504364736f6c634300050b0032",
+  "sourceMap": "58:223:0:-;;;99:1;81:19;;58:223;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:223:0;;;;;;;",
+  "deployedSourceMap": "58:223:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:223:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;105:42;;;:::i;:::-;;151:47;;;:::i;202:77::-;;;:::i;:::-;;;;;;;;;;;;;;;;105:42;133:7;:9;;;;;;105:42::o;151:47::-;184:7;:9;;-1:-1:-1;;184:9:0;;;151:47::o;202:77::-;245:7;267;202:77;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.5.11;\n\ncontract TestToken {\n  uint256 counter = 0;\n\n  function add() public {\n    counter++;\n  }\n\n  function subtract() public {\n    counter--;\n  }\n\n  function getCounter() public view returns (uint256) {\n    return counter;\n  }\n}\n",
   "sourcePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol",
   "ast": {
     "absolutePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol",
     "exportedSymbols": {
-      "Counter": [
-        60
+      "TestToken": [
+        27
       ]
     },
-    "id": 61,
+    "id": 28,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 34,
+        "id": 1,
         "literals": [
           "solidity",
           "^",
@@ -61,7 +61,7 @@
           ".11"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:24:1"
+        "src": "32:24:0"
       },
       {
         "baseContracts": [],
@@ -69,20 +69,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 60,
+        "id": 27,
         "linearizedBaseContracts": [
-          60
+          27
         ],
-        "name": "Counter",
+        "name": "TestToken",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 37,
+            "id": 4,
             "name": "counter",
             "nodeType": "VariableDeclaration",
-            "scope": 60,
-            "src": "79:19:1",
+            "scope": 27,
+            "src": "81:19:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -90,10 +90,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 35,
+              "id": 2,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "79:7:1",
+              "src": "81:7:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -102,14 +102,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 36,
+              "id": 3,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "97:1:1",
+              "src": "99:1:0",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_0_by_1",
@@ -121,14 +121,14 @@
           },
           {
             "body": {
-              "id": 43,
+              "id": 10,
               "nodeType": "Block",
-              "src": "125:20:1",
+              "src": "127:20:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 41,
+                    "id": 8,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -136,15 +136,15 @@
                     "nodeType": "UnaryOperation",
                     "operator": "++",
                     "prefix": false,
-                    "src": "131:9:1",
+                    "src": "133:9:0",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 40,
+                      "id": 7,
                       "name": "counter",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 37,
-                      "src": "131:7:1",
+                      "referencedDeclaration": 4,
+                      "src": "133:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -155,47 +155,47 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 42,
+                  "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "131:9:1"
+                  "src": "133:9:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 44,
+            "id": 11,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "add",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 38,
+              "id": 5,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "115:2:1"
+              "src": "117:2:0"
             },
             "returnParameters": {
-              "id": 39,
+              "id": 6,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "125:0:1"
+              "src": "127:0:0"
             },
-            "scope": 60,
-            "src": "103:42:1",
+            "scope": 27,
+            "src": "105:42:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 50,
+              "id": 17,
               "nodeType": "Block",
-              "src": "176:20:1",
+              "src": "178:20:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 48,
+                    "id": 15,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -203,15 +203,15 @@
                     "nodeType": "UnaryOperation",
                     "operator": "--",
                     "prefix": false,
-                    "src": "182:9:1",
+                    "src": "184:9:0",
                     "subExpression": {
                       "argumentTypes": null,
-                      "id": 47,
+                      "id": 14,
                       "name": "counter",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 37,
-                      "src": "182:7:1",
+                      "referencedDeclaration": 4,
+                      "src": "184:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -222,88 +222,88 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 49,
+                  "id": 16,
                   "nodeType": "ExpressionStatement",
-                  "src": "182:9:1"
+                  "src": "184:9:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 51,
+            "id": 18,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "subtract",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 45,
+              "id": 12,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "166:2:1"
+              "src": "168:2:0"
             },
             "returnParameters": {
-              "id": 46,
+              "id": 13,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "176:0:1"
+              "src": "178:0:0"
             },
-            "scope": 60,
-            "src": "149:47:1",
+            "scope": 27,
+            "src": "151:47:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 58,
+              "id": 25,
               "nodeType": "Block",
-              "src": "252:25:1",
+              "src": "254:25:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 56,
+                    "id": 23,
                     "name": "counter",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 37,
-                    "src": "265:7:1",
+                    "referencedDeclaration": 4,
+                    "src": "267:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 55,
-                  "id": 57,
+                  "functionReturnParameters": 22,
+                  "id": 24,
                   "nodeType": "Return",
-                  "src": "258:14:1"
+                  "src": "260:14:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 59,
+            "id": 26,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getCounter",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 52,
+              "id": 19,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "219:2:1"
+              "src": "221:2:0"
             },
             "returnParameters": {
-              "id": 55,
+              "id": 22,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54,
+                  "id": 21,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 59,
-                  "src": "243:7:1",
+                  "scope": 26,
+                  "src": "245:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -311,10 +311,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 53,
+                    "id": 20,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "243:7:1",
+                    "src": "245:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -324,27 +324,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "242:9:1"
+              "src": "244:9:0"
             },
-            "scope": 60,
-            "src": "200:77:1",
+            "scope": 27,
+            "src": "202:77:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 61,
-        "src": "58:221:1"
+        "scope": 28,
+        "src": "58:223:0"
       }
     ],
-    "src": "32:248:1"
+    "src": "32:250:0"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol",
       "exportedSymbols": {
-        "Counter": [
-          60
+        "TestToken": [
+          27
         ]
       }
     },
@@ -358,9 +358,9 @@
             ".11"
           ]
         },
-        "id": 34,
+        "id": 1,
         "name": "PragmaDirective",
-        "src": "32:24:1"
+        "src": "32:24:0"
       },
       {
         "attributes": {
@@ -374,17 +374,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            60
+            27
           ],
-          "name": "Counter",
-          "scope": 61
+          "name": "TestToken",
+          "scope": 28
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "counter",
-              "scope": 60,
+              "scope": 27,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "uint256",
@@ -396,9 +396,9 @@
                   "name": "uint256",
                   "type": "uint256"
                 },
-                "id": 35,
+                "id": 2,
                 "name": "ElementaryTypeName",
-                "src": "79:7:1"
+                "src": "81:7:0"
               },
               {
                 "attributes": {
@@ -413,14 +413,14 @@
                   "type": "int_const 0",
                   "value": "0"
                 },
-                "id": 36,
+                "id": 3,
                 "name": "Literal",
-                "src": "97:1:1"
+                "src": "99:1:0"
               }
             ],
-            "id": 37,
+            "id": 4,
             "name": "VariableDeclaration",
-            "src": "79:19:1"
+            "src": "81:19:0"
           },
           {
             "attributes": {
@@ -432,7 +432,7 @@
                 null
               ],
               "name": "add",
-              "scope": 60,
+              "scope": 27,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -445,9 +445,9 @@
                   ]
                 },
                 "children": [],
-                "id": 38,
+                "id": 5,
                 "name": "ParameterList",
-                "src": "115:2:1"
+                "src": "117:2:0"
               },
               {
                 "attributes": {
@@ -456,9 +456,9 @@
                   ]
                 },
                 "children": [],
-                "id": 39,
+                "id": 6,
                 "name": "ParameterList",
-                "src": "125:0:1"
+                "src": "127:0:0"
               },
               {
                 "children": [
@@ -482,33 +482,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 37,
+                              "referencedDeclaration": 4,
                               "type": "uint256",
                               "value": "counter"
                             },
-                            "id": 40,
+                            "id": 7,
                             "name": "Identifier",
-                            "src": "131:7:1"
+                            "src": "133:7:0"
                           }
                         ],
-                        "id": 41,
+                        "id": 8,
                         "name": "UnaryOperation",
-                        "src": "131:9:1"
+                        "src": "133:9:0"
                       }
                     ],
-                    "id": 42,
+                    "id": 9,
                     "name": "ExpressionStatement",
-                    "src": "131:9:1"
+                    "src": "133:9:0"
                   }
                 ],
-                "id": 43,
+                "id": 10,
                 "name": "Block",
-                "src": "125:20:1"
+                "src": "127:20:0"
               }
             ],
-            "id": 44,
+            "id": 11,
             "name": "FunctionDefinition",
-            "src": "103:42:1"
+            "src": "105:42:0"
           },
           {
             "attributes": {
@@ -520,7 +520,7 @@
                 null
               ],
               "name": "subtract",
-              "scope": 60,
+              "scope": 27,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -533,9 +533,9 @@
                   ]
                 },
                 "children": [],
-                "id": 45,
+                "id": 12,
                 "name": "ParameterList",
-                "src": "166:2:1"
+                "src": "168:2:0"
               },
               {
                 "attributes": {
@@ -544,9 +544,9 @@
                   ]
                 },
                 "children": [],
-                "id": 46,
+                "id": 13,
                 "name": "ParameterList",
-                "src": "176:0:1"
+                "src": "178:0:0"
               },
               {
                 "children": [
@@ -570,33 +570,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 37,
+                              "referencedDeclaration": 4,
                               "type": "uint256",
                               "value": "counter"
                             },
-                            "id": 47,
+                            "id": 14,
                             "name": "Identifier",
-                            "src": "182:7:1"
+                            "src": "184:7:0"
                           }
                         ],
-                        "id": 48,
+                        "id": 15,
                         "name": "UnaryOperation",
-                        "src": "182:9:1"
+                        "src": "184:9:0"
                       }
                     ],
-                    "id": 49,
+                    "id": 16,
                     "name": "ExpressionStatement",
-                    "src": "182:9:1"
+                    "src": "184:9:0"
                   }
                 ],
-                "id": 50,
+                "id": 17,
                 "name": "Block",
-                "src": "176:20:1"
+                "src": "178:20:0"
               }
             ],
-            "id": 51,
+            "id": 18,
             "name": "FunctionDefinition",
-            "src": "149:47:1"
+            "src": "151:47:0"
           },
           {
             "attributes": {
@@ -608,7 +608,7 @@
                 null
               ],
               "name": "getCounter",
-              "scope": 60,
+              "scope": 27,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -621,9 +621,9 @@
                   ]
                 },
                 "children": [],
-                "id": 52,
+                "id": 19,
                 "name": "ParameterList",
-                "src": "219:2:1"
+                "src": "221:2:0"
               },
               {
                 "children": [
@@ -631,7 +631,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 59,
+                      "scope": 26,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -644,25 +644,25 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 53,
+                        "id": 20,
                         "name": "ElementaryTypeName",
-                        "src": "243:7:1"
+                        "src": "245:7:0"
                       }
                     ],
-                    "id": 54,
+                    "id": 21,
                     "name": "VariableDeclaration",
-                    "src": "243:7:1"
+                    "src": "245:7:0"
                   }
                 ],
-                "id": 55,
+                "id": 22,
                 "name": "ParameterList",
-                "src": "242:9:1"
+                "src": "244:9:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 55
+                      "functionReturnParameters": 22
                     },
                     "children": [
                       {
@@ -671,38 +671,38 @@
                           "overloadedDeclarations": [
                             null
                           ],
-                          "referencedDeclaration": 37,
+                          "referencedDeclaration": 4,
                           "type": "uint256",
                           "value": "counter"
                         },
-                        "id": 56,
+                        "id": 23,
                         "name": "Identifier",
-                        "src": "265:7:1"
+                        "src": "267:7:0"
                       }
                     ],
-                    "id": 57,
+                    "id": 24,
                     "name": "Return",
-                    "src": "258:14:1"
+                    "src": "260:14:0"
                   }
                 ],
-                "id": 58,
+                "id": 25,
                 "name": "Block",
-                "src": "252:25:1"
+                "src": "254:25:0"
               }
             ],
-            "id": 59,
+            "id": 26,
             "name": "FunctionDefinition",
-            "src": "200:77:1"
+            "src": "202:77:0"
           }
         ],
-        "id": 60,
+        "id": 27,
         "name": "ContractDefinition",
-        "src": "58:221:1"
+        "src": "58:223:0"
       }
     ],
-    "id": 61,
+    "id": 28,
     "name": "SourceUnit",
-    "src": "32:248:1"
+    "src": "32:250:0"
   },
   "compiler": {
     "name": "solc",
@@ -710,7 +710,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-03-18T12:10:00.681Z",
+  "updatedAt": "2021-03-18T12:58:50.540Z",
   "devdoc": {
     "methods": {}
   },
