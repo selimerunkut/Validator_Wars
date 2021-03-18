@@ -1,15 +1,27 @@
-Setting up ethermint:
+# Ethermint
+
+## Setting up ethermint:
+
+https://docs.ethermint.zone/
+
 https://www.youtube.com/watch?v=cH-4Mq-S4BA
 
-clone repository
-`git clone https://github.com/ChainSafe/ethermint`
+### Ethermint repository is added as a submodule
+
+initialized ethermint repository
+`git submodule init`
+
+update - if neccesarry in the future:
+`git submodule update`
 
 `cd ethermint`
 
 `make install`
 
 
-# Troubleshooting ethermint
+
+
+## Troubleshooting ethermint
 go version should be 1.15+
 
 https://www.jajaldoang.com/post/how-to-update-golang/
