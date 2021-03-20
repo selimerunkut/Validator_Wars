@@ -28,7 +28,9 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@plugins/web3.js'
   ],
+
   /*
   ** Nuxt.js dev-modules
   */
@@ -40,6 +42,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/dotenv'
   ],
   /*
   ** Build configuration
