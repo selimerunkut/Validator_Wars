@@ -34,3 +34,17 @@ ethermintcli or ethermintd can not be found - no such command
 
 if run the above commands or the ./init.sh gives you errors you should check your $PATH varibales
 export PATH="$PATH:/Users/$USER/go/bin"
+
+## Start Web-app
+
+1.Move to web Directory
+
+`cd web`
+
+2.Install npm packages
+
+`npm install`
+
+3.Run Local Server
+
+`npm run dev`
