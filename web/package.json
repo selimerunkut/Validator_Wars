@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@cosmjs/launchpad": "0.24.1",
+    "@cosmjs/stargate": "0.24.1",
     "@nuxtjs/dotenv": "1.4.1",
     "@truffle/hdwallet-provider": "1.2.4",
     "@types/ethereum-protocol": "^1.0.1",
