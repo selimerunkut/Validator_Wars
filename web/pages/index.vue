@@ -18,6 +18,24 @@
           ></el-avatar>
     </div>
   </div>
+     <div class="main-content__notuser" v-if="keplr_accounts == null">
+        <el-alert
+          title="cannot connetct Metamask"
+          type="error"
+          description="cannot connetct Metamask"
+          show-icon
+          :closable="false"
+        >
+        </el-alert>
+  </div>
+    <div class="main-content" v-if="keplr_accounts != null">
+      <div class="about-account">
+          <h4>account</h4>
+          <el-avatar
+            src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
+          ></el-avatar>
+    </div>
+  </div>
     <div>
       <logo />
       <h1 class="title">
@@ -57,6 +75,7 @@ export default {
   data(){
     return{
     userAddress: null,
+    keplrAddress: null
     };
   },
 
@@ -64,6 +83,9 @@ export default {
 async mounted(){
 let acocunts = await this.$web3.eth.getAccount();
 this.userAddress = acocunts[0];
+
+let keplr_accounts = await this.$acocunt;
+this.keplrAddress = keplr_accounts[0].address;
 },
 
 }
