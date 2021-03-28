@@ -48,7 +48,7 @@ module.exports = {
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
     //
-    development: {
+/*     development: {
       //host: "127.0.0.1",     // Localhost (default: none)
       //port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
@@ -60,6 +60,11 @@ module.exports = {
           "http://127.0.0.1:8545"
         )
       },
+    }, */
+    development: {
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
+      network_id: "*",       // Any network (default: none)
     },
     /*     
     test: {
@@ -113,12 +118,5 @@ module.exports = {
         }
       }
     }
-<<<<<<< HEAD:game_smartcontractsV1_truffle_new/truffle-config.js
-  },
-  plugins: [
-    'truffle-plugin-verify'
-  ]
-=======
   }
->>>>>>> 90a8d80f2c7397c57e88392ae70a3a32065f32a8:game_samrtcontractsV2/truffle-config.js
 };

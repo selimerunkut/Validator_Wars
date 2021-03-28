@@ -1,3 +1,6 @@
 [submodule "ethermint"]
 	path = ethermint
 	url = https://github.com/cosmos/ethermint.git
+[submodule "cosmonaut_frontend"]
+	path = cosmonaut_frontend
+	url = ./cosmonaut_frontend

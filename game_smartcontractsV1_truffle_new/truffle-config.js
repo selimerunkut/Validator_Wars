@@ -106,12 +106,5 @@ module.exports = {
         }
       }
     }
-<<<<<<< HEAD:game_smartcontractsV1_truffle_new/truffle-config.js
-  },
-  plugins: [
-    'truffle-plugin-verify'
-  ]
-=======
   }
->>>>>>> 90a8d80f2c7397c57e88392ae70a3a32065f32a8:game_samrtcontractsV2/truffle-config.js
 };

@@ -35,15 +35,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.11+commit.c082d0b4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"add\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"subtract\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol\":\"Counter\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":1337},\"remappings\":[]},\"sources\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol\":{\"keccak256\":\"0x4e6ffbb24e836853c794d4b60399b529b3d591800ff83f1d2b66383cc0d126fd\",\"urls\":[\"bzz-raw://3bb5fd5f40f29fbbbb4c42e23ff20c828553a75a12646d1216d3eb388874a4c0\",\"dweb:/ipfs/QmNLx3N1gcY6SQXJkKwmXkiwJMz6CWqBGdBfErLnVKRQuw\"]}},\"version\":1}",
-  "bytecode": "0x60806040526000805534801561001457600080fd5b5060b9806100236000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a723158202639b10c72f4c39cf35a93bad698b0add8cdad57cd0d6dd7f4f33ee0aa8e282064736f6c634300050b0032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a723158202639b10c72f4c39cf35a93bad698b0add8cdad57cd0d6dd7f4f33ee0aa8e282064736f6c634300050b0032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.11+commit.c082d0b4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"add\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"subtract\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2_truffle_old/contracts/TestToken.sol\":\"Counter\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":1337},\"remappings\":[]},\"sources\":{\"/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2_truffle_old/contracts/TestToken.sol\":{\"keccak256\":\"0x4e6ffbb24e836853c794d4b60399b529b3d591800ff83f1d2b66383cc0d126fd\",\"urls\":[\"bzz-raw://3bb5fd5f40f29fbbbb4c42e23ff20c828553a75a12646d1216d3eb388874a4c0\",\"dweb:/ipfs/QmNLx3N1gcY6SQXJkKwmXkiwJMz6CWqBGdBfErLnVKRQuw\"]}},\"version\":1}",
+  "bytecode": "0x60806040526000805534801561001457600080fd5b5060b9806100236000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a7231582028e6e32ddef3698e32b79402b912faaa144a9017644b29e6e680e1fb9e3bcbce64736f6c634300050b0032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80634f2be91f1460415780636deebae31460495780638ada066e14604f575b600080fd5b60476067565b005b60476072565b6055607e565b60408051918252519081900360200190f35b600080546001019055565b60008054600019019055565b6000549056fea265627a7a7231582028e6e32ddef3698e32b79402b912faaa144a9017644b29e6e680e1fb9e3bcbce64736f6c634300050b0032",
   "sourceMap": "58:221:1:-;;;97:1;79:19;;58:221;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:221:1;;;;;;;",
   "deployedSourceMap": "58:221:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;58:221:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;103:42;;;:::i;:::-;;149:47;;;:::i;200:77::-;;;:::i;:::-;;;;;;;;;;;;;;;;103:42;131:7;:9;;;;;;103:42::o;149:47::-;182:7;:9;;-1:-1:-1;;182:9:1;;;149:47::o;200:77::-;243:7;265;200:77;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.5.11;\n\ncontract Counter {\n  uint256 counter = 0;\n\n  function add() public {\n    counter++;\n  }\n\n  function subtract() public {\n    counter--;\n  }\n\n  function getCounter() public view returns (uint256) {\n    return counter;\n  }\n}\n",
-  "sourcePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol",
+  "sourcePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2_truffle_old/contracts/TestToken.sol",
   "ast": {
-    "absolutePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol",
+    "absolutePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2_truffle_old/contracts/TestToken.sol",
     "exportedSymbols": {
       "Counter": [
         60
@@ -340,7 +340,7 @@
     "src": "32:248:1"
   },
   "legacyAST": {
-    "absolutePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2/contracts/TestToken.sol",
+    "absolutePath": "/Users/selimerunkut/dev/cosmos_hackathon/game_samrtcontractsV2_truffle_old/contracts/TestToken.sol",
     "exportedSymbols": {
       "Counter": [
         60
@@ -642,7 +642,7 @@
   },
   "networks": {},
   "schemaVersion": "3.2.2",
-  "updatedAt": "2021-03-18T13:48:33.102Z",
+  "updatedAt": "2021-03-20T20:48:06.532Z",
   "devdoc": {
     "methods": {}
   },
